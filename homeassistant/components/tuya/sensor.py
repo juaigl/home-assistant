@@ -228,6 +228,9 @@ SENSORS: dict[str, tuple[SensorEntityDescription, ...]] = {
     # Emergency Button
     # https://developer.tuya.com/en/docs/iot/categorysos?id=Kaiuz3oi6agjy
     "sos": BATTERY_SENSORS,
+    # Solar Light
+    # https://developer.tuya.com/en/docs/iot/tynd?id=Kaof8j02e1t98
+    "tyndj": BATTERY_SENSORS,
     # Pressure Sensor
     # https://developer.tuya.com/en/docs/iot/categoryylcg?id=Kaiuz3kc2e4gm
     "ylcg": (
